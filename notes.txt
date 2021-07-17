@@ -1,0 +1,19 @@
+project: Review commenting system
+
+
+Technology:HTML , css , javascript
+
+
+Requirements:
+
+1.Register
+
+2.Login
+
+3.post comments,manage own comments(update,delete)
+
+4.should be able to see others comments and reply them
+
+5.provide Reactions on comments.
+
+

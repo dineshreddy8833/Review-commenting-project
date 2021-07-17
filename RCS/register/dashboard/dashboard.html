@@ -1,0 +1,40 @@
+<html>
+    <head>
+         
+    </head>
+    <body>
+
+        <h1 id="welcome_msg"></h1><br><br>
+        <button onclick="logout()">Logout</button><br><br>
+
+        <form>
+
+            <textarea id="postId"  rows="10"  cols="80" placeholder="whats on your mind ?"></textarea><br><br>
+
+            <button id='posted' onclick="post()">post</button>
+            <button id='savebtn'>save</button>
+        </form>
+             
+
+        <br><br>
+
+        <ul id="listofposts"></ul>
+
+        <hr>
+
+        <h3>Pending Requests</h3>
+
+        <ul id="pendingreqs"></ul>
+
+
+        <hr>
+
+        <h3>Available Users</h3>
+
+        <ul  id="allUsers"></ul>
+        
+        <script src="dashboard.js"></script>
+        <script src="../utilities/utilities.js"></script>
+        
+    </body>
+</html>
